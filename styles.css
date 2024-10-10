@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-#gridSize,
-#container {
+body {
   margin: 8px auto;
 }
 
@@ -14,14 +13,4 @@
   flex-wrap: wrap;
   width: 720px;
   height: 720px;
-}
-
-.modal {
-  width: 100px;
-  height: 100px;
-  display: none;
-}
-
-.active {
-  display: block;
 }
